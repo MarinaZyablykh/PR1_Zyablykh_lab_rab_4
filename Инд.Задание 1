@@ -1,0 +1,76 @@
+# PR1_Zyablykh_lab_rab_4
+<script>
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Root">
+<xs:complexType>
+<xs:choice maxOccurs="unbounded">
+<xs:element name="Thing" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="IDThing" type="xs:string" />
+<xs:element name="Count_Thing" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:choice>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+</script>
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="XSD1.xsd"> Цветочная продукция<!—обратите внимание на ссылку на xsd —> <br />
+<Thing>
+<Thing> <table border="1"> <tr>
+<td><IDThing>Код цветка</IDThing></td>
+<td><IDThing>Название цветка</IDThing></td>
+<td><IDThing>Сорт цветка</IDThing></td>
+<td><IDThing>Средняя высота</IDThing></td>
+<td><IDThing>Цветущий</IDThing></td>
+<td><IDThing>Дополнительные сведения</IDThing></td></tr>
+<tr>
+<td><Count_Thing>1</Count_Thing></td>
+<td><Count_Thing>Лаватера</Count_Thing></td>
+<td><Count_Thing>Лаватера Барнсли</Count_Thing></td>
+<td><Count_Thing>1,2 м</Count_Thing></td>
+<td><Count_Thing>да</Count_Thing></td>
+<td><Count_Thing>Садовое растение из семейства мальвовых</Count_Thing></td>
+
+</tr>
+<tr>
+<td><Count_Thing>2</Count_Thing></td>
+<td><Count_Thing>Агератум</Count_Thing></td>
+<td><Count_Thing>Агератум Хоустона</Count_Thing></td>
+<td><Count_Thing>20 см</Count_Thing></td>
+<td><Count_Thing>да</Count_Thing></td>
+<td><Count_Thing>Предпочитает умеренное увлажнение, садовые почвы  </Count_Thing></td>
+
+</tr><tr>
+<td><Count_Thing>3</Count_Thing></td>
+<td><Count_Thing>Бадан</Count_Thing></td>
+<td><Count_Thing>Бадан сердцелистный</Count_Thing></td>
+<td><Count_Thing>30 см</Count_Thing></td>
+<td><Count_Thing>да</Count_Thing></td>
+<td><Count_Thing>Многолетнее, тенелюбивое, предпочитает умеренное увлажнение,зимостойкое</Count_Thing></td>
+
+</tr><tr>
+<td><Count_Thing>4</Count_Thing></td>
+<td><Count_Thing>Вербена</Count_Thing></td>
+<td><Count_Thing>Вербена гибридная </Count_Thing></td>
+<td><Count_Thing>20-50 см</Count_Thing></td>
+<td><Count_Thing>да</Count_Thing></td>
+<td><Count_Thing> Двулетнее, предпочитает садовые почвы</Count_Thing></td>
+
+</tr>
+<tr>
+<td><Count_Thing>5</Count_Thing></td>
+<td><Count_Thing>Кохия</Count_Thing></td>
+<td><Count_Thing>Кохия веничная </Count_Thing></td>
+<td><Count_Thing>1 м</Count_Thing></td>
+<td><Count_Thing>нет</Count_Thing></td>
+<td><Count_Thing> Светолюбивый двулетник,хорошо переносит стрижку, стебли прямостоячие, сильно разветвленные</Count_Thing></td>
+
+</tr>
+</table>
+</Thing>
+</Root>
